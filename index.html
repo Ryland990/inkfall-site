@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkfall — Ink Wash Survival</title>
+<meta name="description" content="Inkfall is a survival roguelite for iPhone where you draw brush strokes to cast spells, in a living sumi-e ink-wash style.">
+<style>
+  :root{
+    --paper:#f2ede3;
+    --paper-dark:#e8e0d0;
+    --ink:#1c1a17;
+    --ink-faded:#5a5347;
+    --red:#a4342a;
+    --line: rgba(28,26,23,0.14);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  header.hero{
+    padding:72px 0 48px;
+    text-align:center;
+    background:
+      radial-gradient(ellipse at 30% 20%, rgba(28,26,23,0.06), transparent 60%),
+      radial-gradient(ellipse at 75% 60%, rgba(164,52,42,0.06), transparent 55%),
+      var(--paper);
+    border-bottom:1px solid var(--line);
+  }
+  h1{
+    font-size:2.4rem;
+    margin:0 0 8px;
+    letter-spacing:-0.01em;
+  }
+  .tagline{
+    font-size:1.05rem;
+    color:var(--ink-faded);
+    font-style:italic;
+    max-width:520px;
+    margin:0 auto;
+  }
+  .badges{
+    margin-top:22px;
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+    font-size:0.85rem;
+    color:var(--ink-faded);
+  }
+  .badges span{
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:4px 12px;
+  }
+  main{padding:48px 0;}
+  section{margin-bottom:56px;}
+  h2{
+    font-size:1.3rem;
+    border-bottom:1px solid var(--line);
+    padding-bottom:8px;
+    margin-bottom:16px;
+  }
+  ul.features{list-style:none;padding:0;margin:0;}
+  ul.features li{
+    padding:10px 0;
+    border-bottom:1px solid var(--line);
+  }
+  ul.features li:last-child{border-bottom:none;}
+  ul.features b{color:var(--red);}
+  .contact-box{
+    background:var(--paper-dark);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:20px 24px;
+  }
+  a{color:var(--red);}
+  footer{
+    text-align:center;
+    padding:32px 0 56px;
+    color:var(--ink-faded);
+    font-size:0.85rem;
+  }
+  footer a{color:var(--ink-faded);}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Inkfall</h1>
+    <p class="tagline">A survival roguelite where every spell is a brush stroke you draw yourself — rendered in a living sumi-e ink-wash style.</p>
+    <div class="badges">
+      <span>iOS 17+</span>
+      <span>iPhone</span>
+      <span>No ads</span>
+      <span>No energy timers</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>About</h2>
+    <p>
+      You play a calligraphy-brush spirit, fighting off swarms of ink blots across
+      escalating waves. There are no buttons for spells — every attack is a real
+      gesture traced on-screen: a slash, a spiral, a figure-eight. Land a big enough
+      stroke and an ink dragon rides the exact path you drew, tail dissolving as it
+      fades — a payoff shaped by your own hand movement, not a canned animation.
+    </p>
+    <p>
+      Survive to the boss fight, then keep going in Endless mode. A Brush Codex lets
+      you unlock new gesture forms between runs, and Game Center leaderboards
+      (including a daily seeded challenge) track your best.
+    </p>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <ul class="features">
+      <li><b>Gesture spellcasting</b> — draw the spell, don't tap a button for it</li>
+      <li><b>Ink-wash art direction</b> — the whole battlefield is painted, not textured</li>
+      <li><b>Dragon's Tail</b> — a signature move literally shaped by your stroke</li>
+      <li><b>Brush Codex</b> — meta-progression that unlocks new forms between runs</li>
+      <li><b>Game Center</b> — leaderboards plus a daily seeded challenge run</li>
+      <li><b>No ads, no energy timers</b> — built by one person, not a live-ops team</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Support</h2>
+    <div class="contact-box">
+      <p style="margin-top:0">
+        Found a bug, have feedback, or need help with the game? Reach out directly —
+        a real person (the developer) reads every message.
+      </p>
+      <p style="margin-bottom:0">
+        Email: <a href="mailto:ct.pl3b@gmail.com">ct.pl3b@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p>
+      Inkfall does not collect or transmit any personal data. See the
+      <a href="privacy.html">full privacy policy</a> for details.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Inkfall · <a href="mailto:ct.pl3b@gmail.com">Contact</a> · <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
